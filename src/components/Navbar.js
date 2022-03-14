@@ -4,17 +4,17 @@ import Link from "next/link";
 export default function Navbar() {
   return (
     <Flex
-      bg="gray.600"
-      color="white"
+      bg="white"
+      color="black"
       w="full"
       sx={{ gap: "12px" }}
       align="center"
       pl={3}
       py={4}
     >
-      <Link href="/">Home</Link>
-      <Link href="/posts">Posts</Link>
-      <Link href="/contact">Projects</Link>
+      <Link href="/">About</Link>
+      <Link href="/projects">Work</Link>
+      <Link href="/posts">Blog</Link>
     </Flex>
   );
 }

@@ -1,17 +1,3 @@
-/*
-
-	Make sure you swap out my information with your own! 
-	We want to be ready to ship by the end of the workshop 👀
-
-	- Name
-	- Title
-	- Image (if you'd like) -> put this in the public folder
-	- Bio 
-	- Twitter link (if you have one)
-	- Github link
-
-*/
-
 import {
   Heading,
   Flex,
@@ -23,15 +9,7 @@ import {
   Avatar,
 } from "@chakra-ui/react";
 
-import {
-  FaTwitter,
-  FaGithub,
-  FaAddressBook,
-  FaEnvelope,
-  FaDochub,
-  FaReadme,
-  FaFile,
-} from "react-icons/fa";
+import { FaGithub, FaEnvelope, FaFile } from "react-icons/fa";
 
 export default function Home() {
   return (
@@ -47,11 +25,11 @@ export default function Home() {
         A Colombian bootcamp graduate, FKA UX designer located in Austin, TX.
       </Text>
       <Text textAlign="center">
-        I care about the accessibility (a11y) and integrity of the product's
-        code as much as I care about the quality of how it looks, feels and
-        works. I like crafting user-centered solutions through code by closely
-        collaborating with designers and product owners throughout the full
-        lifecycle of the product.
+        I care about the accessibility (a11y) and integrity of the products code
+        as much as I care about the quality of how it looks, feels and works. I
+        like crafting user-centered solutions through code by closely
+        collaborating with designers throughout the full lifecycle of the
+        project. Get in touch! 👇🏼
       </Text>
       <HStack spacing="20px" justifySelf="center">
         <Link href="mailto:lina.lyden@gmail.com">

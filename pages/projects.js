@@ -9,6 +9,11 @@ export default function Projects() {
         name="Hacker News Clone"
         link="https://github.com/linazoo/my-hacker-news"
       />
+      <ProjectCard
+        image="/hacker-news.png"
+        name="Tracker"
+        link="https://github.com/linazoo/my-hacker-news"
+      />
     </VStack>
   );
 }

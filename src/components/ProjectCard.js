@@ -14,6 +14,8 @@ export default function ProjectCard({ image, name, link }) {
   return (
     <VStack h="900px" w="900px">
       <Image
+        href={link}
+        target="_blank"
         borderRadius="8px"
         boxShadow="lg"
         width="full"

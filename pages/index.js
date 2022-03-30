@@ -9,12 +9,12 @@ import {
   Avatar,
 } from "@chakra-ui/react";
 
-import { FaGithub, FaEnvelope, FaFile } from "react-icons/fa";
+import { FaGithub, FaEnvelope, FaFile, FaRegBell } from "react-icons/fa";
 
 export default function Home() {
   return (
     <VStack align="center" gap="20px" justify="center">
-      <Avatar src="/hi.svg" size="3xl" />
+      <Avatar src="/yeenah.jpeg" size="3xl" />
       <VStack>
         <Heading as="h2">I'm Lina Zuluaga</Heading>
         <Heading size="md" as="h3">
